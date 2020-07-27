@@ -1,13 +1,19 @@
-//named export
-export let name = 'TutorialsPoint'
+// //named export
+// export let name = 'TutorialsPoint'
 
-let company = {
-   getName:function(){
-      return name
-   },
-   setName:function(newName){
-      name =newName
-   }
+// let company = {
+//    getName:function(){
+//       return name
+//    },
+//    setName:function(newName){
+//       name =newName
+//    }
+// }
+// //default export
+// export default company
+//named export
+function a()
+{
+	console.log("ok");
 }
-//default export
-export default company
+ export a;
